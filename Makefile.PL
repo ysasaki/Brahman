@@ -11,6 +11,7 @@ requires 'Mouse';
 requires 'Router::Simple';
 requires 'Task::Weaken';
 requires 'Twiggy';
+requires 'Furl';
 
 install_script 'bin/brahmanctl';
 install_script 'bin/brahmand';
