@@ -12,4 +12,7 @@ requires 'Router::Simple';
 requires 'Task::Weaken';
 requires 'Twiggy';
 
+install_script 'bin/brahmanctl';
+install_script 'bin/brahmand';
+
 WriteAll;
